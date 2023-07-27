@@ -1,0 +1,113 @@
+body {
+    background: white;
+font-family: 'Oswald', sans-serif;
+
+    overflow: hidden;
+}
+
+.index {
+    width: 100vw;
+    height: 100vh;
+}
+
+.navbar {
+    background: green !important;
+}
+
+
+.masthead {
+    color: white;
+    min-height: 30rem;
+    width: 100%;
+    height: 100%;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background: url('/img/portada.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.masthead h1 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  @media (min-width: 992px) {
+    .masthead {
+      height: 100vh;
+    }
+    .masthead h1 {
+      font-size: 5.5rem;
+    }
+  }
+
+
+
+.name__mes{
+
+  text-align: center;
+  color: orange;
+  font-weight: 400 ;
+  padding: 30px 0 ;
+  place-items: center;
+
+
+}
+
+.dias{
+
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  place-items: center;
+  height: 40px;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  color: red;
+}
+
+
+.calendario{
+
+display: grid;
+grid-template-columns: repeat(7,1fr);
+grid-auto-rows: 120px;
+
+}
+
+
+.calendario__dia{
+
+border-bottom: 1px solid black;
+border-top: 1px solid black;
+padding:9px 14px ;
+color: #51565d ;
+
+}
+
+.card card-body{
+
+height: 910px;
+width: 700px;
+display: grid;
+place-items: center;
+
+
+
+}
+
+
+/* Estilos para el formulario */
+
+.progreso {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el formulario */
+.formulario {
+  text-align: center;
+}
